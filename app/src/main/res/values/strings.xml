@@ -9,14 +9,12 @@
     </string-array>
 
 
-
     <string-array name="convert">
         <item>Dolar</item>
         <item>Euro</item>
         <item>Peso</item>
         <item>Ringgit</item>
     </string-array>
-
 
 
     <string name="title_activity_login">login</string>
@@ -64,4 +62,5 @@
     </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_forgotpw">forgotpw</string>
 </resources>

@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".login"
+    tools:context=".reisgter"
     android:background="@drawable/home"
     >
+
+
 
 
     <RelativeLayout
@@ -39,7 +41,7 @@
 
 
                 <EditText
-                    android:id="@+id/user"
+                    android:id="@+id/name"
                     android:layout_marginTop="20dp"
                     android:layout_width="270dp"
                     android:layout_height="40dp"
@@ -47,6 +49,24 @@
                     android:textColor="@color/white"
                     ></EditText>
 
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:hint="password"
+                    android:textColor="@color/white"
+                    ></EditText>
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="270dp"
+                    android:layout_height="40dp"
+                    android:hint="password"
+                    android:textColor="@color/white"
+                    ></EditText>
 
                 <EditText
                     android:id="@+id/pwd"
@@ -59,27 +79,13 @@
 
 
                 <Button
-                    android:id="@+id/btn_login"
-                    android:layout_width="210dp"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Sign in"
-                    ></Button>
-                <Button
                     android:id="@+id/btn_regis"
                     android:layout_width="210dp"
                     android:layout_height="40dp"
                     android:layout_marginTop="40dp"
-                    android:text="Sign up"
+                    android:text="Reset Password"
                     ></Button>
 
-                <Button
-                    android:id="@+id/btn_forgot"
-                    android:layout_width="210dp"
-                    android:layout_height="40dp"
-                    android:layout_marginTop="40dp"
-                    android:text="Forget Password"
-                    ></Button>
 
 
 
