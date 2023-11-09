@@ -20,9 +20,15 @@ class login : AppCompatActivity() {
         login = findViewById<View>(R.id.btn_login) as Button
         login!!.setOnClickListener { openhome() }
 
-        val button = findViewById<View>(R.id.btn_login)
+        val button = findViewById<View>(R.id.btn_regis)
         button.setOnClickListener {
             val intent = Intent(this@login, reisgter::class.java)
+            startActivity(intent)
+        }
+
+        val button2 = findViewById<View>(R.id.btn_forget)
+        button.setOnClickListener {
+            val intent = Intent(this@login, forgot::class.java)
             startActivity(intent)
         }
 
