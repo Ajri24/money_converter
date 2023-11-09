@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/calc"
+        android:icon="@drawable/baseline_money_24"
+        android:title=""
+        >
+    </item>
+
+
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_home_24"
+        android:title=""
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/scale"
+        android:icon="@drawable/baseline_scale_24"
+        android:title=""
+        >
+    </item>
+
+
+    <item
+        android:id="@+id/convert"
+        android:icon="@drawable/baseline_credit_score_24"
+        android:title=""
+        >
+    </item>
+
+
+
+
+</menu>

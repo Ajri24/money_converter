@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    tools:context=".home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to My App"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp">
+
+    </TextView>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:gravity="center">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           android:gravity="center">
+
+
+
+           <ImageView
+               android:layout_width="220dp"
+               android:layout_height="220dp"
+               android:src="@drawable/employee">
+           </ImageView>
+
+           <TextView
+               android:layout_width="356dp"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:text="Mobile applications or mobile applications are computer programs designed to run on mobile devices "
+               android:textColor="@color/black"
+               android:textSize="11dp"
+               android:layout_marginTop="45dp"
+               android:textStyle="italic"
+               ></TextView>
+
+
+           <Button
+               android:id="@+id/profile"
+               android:layout_marginTop="6dp"
+               android:layout_width="120dp"
+               android:layout_height="40dp"
+               android:text="Logout"
+               >
+
+           </Button>
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+
+
+
+   </LinearLayout>
+
+
+
+</FrameLayout>
